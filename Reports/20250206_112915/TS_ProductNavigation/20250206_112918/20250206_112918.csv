@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ProductNavigation,Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:31,06-02-2025 11:30:05,33.944s,PASSED
+,,,,,,,
+Test Cases/TC_ProductNavigation,Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:32,06-02-2025 11:30:05,33.045s,PASSED
+"openBrowser("""")",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:33,06-02-2025 11:29:46,12.200s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:46,06-02-2025 11:29:47,1.090s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_Enter the Store""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:47,06-02-2025 11:29:48,1.678s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_Sign In""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:48,06-02-2025 11:29:49,0.991s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/img""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:49,06-02-2025 11:29:50,0.995s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_FI-SW-01""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:50,06-02-2025 11:29:51,0.870s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_EST-1""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:51,06-02-2025 11:29:52,1.177s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_Add to Cart""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:52,06-02-2025 11:29:53,0.758s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:53,06-02-2025 11:29:54,0.912s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/img_1""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:54,06-02-2025 11:29:55,0.863s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_FL-DSH-01""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:55,06-02-2025 11:29:56,0.855s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_EST-14""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:56,06-02-2025 11:29:57,1.164s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_Add to Cart_1""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:57,06-02-2025 11:29:58,0.800s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:58,06-02-2025 11:29:58,0.769s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/img_1_2""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:58,06-02-2025 11:29:59,0.870s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_AV-CB-01""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:29:59,06-02-2025 11:30:01,1.755s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_EST-18""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:30:01,06-02-2025 11:30:02,1.147s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_Add to Cart_1_2""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:30:02,06-02-2025 11:30:03,0.739s,PASSED
+"click(findTestObject(""Object Repository/ProductNavigation/Page_JPetStore Demo/a_Proceed to Checkout""))",Edge Chromium 132.0.2957.140,,,06-02-2025 11:30:03,06-02-2025 11:30:04,0.821s,PASSED
+closeBrowser(),Edge Chromium 132.0.2957.140,,,06-02-2025 11:30:04,06-02-2025 11:30:05,1.555s,PASSED

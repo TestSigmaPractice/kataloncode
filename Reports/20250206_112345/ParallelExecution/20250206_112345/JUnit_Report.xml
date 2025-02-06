@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ParallelExecution" time="66.992" tests="2" failures="1" errors="0">
+   <testsuite name="TS_LandingPage" tests="1" failures="0" errors="0" time="14.296" skipped="0" timestamp="06-02-2025T11:24:01" hostname="WINDOWS11 - Mohan" id="Test Suites/TS_LandingPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\WINDOWS11\\git\\kataloncode\\Reports\\20250206_112345\\TS_LandingPage\\20250206_112346"/>
+         <property name="logFiles" value="C:\\Users\\WINDOWS11\\git\\kataloncode\\Reports\\20250206_112345\\TS_LandingPage\\20250206_112346\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WINDOWS11 - Mohan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="0b4a953432da25014bdf0ca1c90db58d"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/VerifyLandingPage" time="13.426" classname="Test Cases/VerifyLandingPage" status="PASSED">
+         <system-out><![CDATA[06-02-2025T11:24:01 - [TEST_CASE][PASSED] - Test Cases/VerifyLandingPage: Test Cases/VerifyLandingPage
+
+06-02-2025T11:24:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2025T11:24:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2025T11:24:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2025T11:24:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2025T11:24:11 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+06-02-2025T11:24:12 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+06-02-2025T11:24:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store"), 0): Object 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' is present
+
+06-02-2025T11:24:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-02-2025T11:24:13 - [MESSAGE][PASSED] - Object 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' is present
+
+06-02-2025T11:24:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store"), "Enter the Store"): Actual text and expected text of test object 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' are matched.
+
+06-02-2025T11:24:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' are matched.
+
+06-02-2025T11:24:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+06-02-2025T11:24:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+06-02-2025T11:24:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2025T11:24:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2025T11:24:01 - [TEST_SUITE][PASSED] - TS_LandingPage: Test Cases/VerifyLandingPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TS_ProductNavigation" tests="1" failures="1" errors="0" time="47.663" skipped="0" timestamp="06-02-2025T11:24:01" hostname="WINDOWS11 - Mohan" id="Test Suites/TS_ProductNavigation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\WINDOWS11\\git\\kataloncode\\Reports\\20250206_112345\\TS_ProductNavigation\\20250206_112348"/>
+         <property name="logFiles" value="C:\\Users\\WINDOWS11\\git\\kataloncode\\Reports\\20250206_112345\\TS_ProductNavigation\\20250206_112348\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WINDOWS11 - Mohan"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+      </properties>
+      <testcase name="Test Cases/TC_ProductNavigation" time="10.406" classname="Test Cases/TC_ProductNavigation" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_ProductNavigation FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)&#xa;	at TC_ProductNavigation.run(TC_ProductNavigation:20)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1738821228170.run(TempTestSuite1738821228170.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Unknown error &#xa;Host info: host: 'MOHAN', ip: '192.168.1.4'&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:100)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:161)&#xa;	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init>(ChromiumDriver.java:114)&#xa;	at org.openqa.selenium.edge.EdgeDriver.&lt;init>(EdgeDriver.java:60)&#xa;	at org.openqa.selenium.edge.EdgeDriver.&lt;init>(EdgeDriver.java:56)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.&lt;init>(CEdgeDriver.java:15)&#xa;	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)&#xa;	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)&#xa;	at Script1738820473669.run(Script1738820473669.groovy:20)&#xa;	... 18 more&#xa;Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Unknown error&#xa;	at org.openqa.selenium.json.Json.toType(Json.java:169)&#xa;	at org.openqa.selenium.json.Json.toType(Json.java:152)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)&#xa;	... 42 more&#xa;Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U, next 12 characters to read: nknown error&#xa;Build info: version: '4.22.0', revision: 'c5f3146703'&#xa;System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'&#xa;Driver info: driver.version: CEdgeDriver&#xa;	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:166)&#xa;	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:167)&#xa;	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)&#xa;	at org.openqa.selenium.json.Json.toType(Json.java:206)&#xa;	at org.openqa.selenium.json.Json.toType(Json.java:167)&#xa;	at org.openqa.selenium.json.Json.toType(Json.java:152)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)&#xa;	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:161)&#xa;	at org.openqa.selenium.chromium.ChromiumDriver.&lt;init>(ChromiumDriver.java:114)&#xa;	at org.openqa.selenium.edge.EdgeDriver.&lt;init>(EdgeDriver.java:60)&#xa;	at org.openqa.selenium.edge.EdgeDriver.&lt;init>(EdgeDriver.java:56)&#xa;	at com.kms.katalon.selenium.driver.CEdgeDriver.&lt;init>(CEdgeDriver.java:15)&#xa;	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)&#xa;	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)&#xa;	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)&#xa;	at TC_ProductNavigation.run(TC_ProductNavigation:20)&#xa;	... 18 more&#xa;"/>
+         <system-out><![CDATA[06-02-2025T11:24:39 - [TEST_CASE][FAILED] - Test Cases/TC_ProductNavigation: Test Cases/TC_ProductNavigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738821228170.run(TempTestSuite1738821228170.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Unknown error 
+Host info: host: 'MOHAN', ip: '192.168.1.4'
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:100)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1738820473669.run(Script1738820473669.groovy:20)
+	... 18 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Unknown error
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	... 42 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U, next 12 characters to read: nknown error
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:166)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:167)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	... 18 more
+
+
+06-02-2025T11:24:39 - [TEST_STEP][FAILED] - openBrowser(""): Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738821228170.run(TempTestSuite1738821228170.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Unknown error 
+Host info: host: 'MOHAN', ip: '192.168.1.4'
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:100)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1738820473669.run(Script1738820473669.groovy:20)
+	... 18 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Unknown error
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	... 42 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U, next 12 characters to read: nknown error
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:166)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:167)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 44 more
+)
+
+06-02-2025T11:24:39 - [MESSAGE][INFO] - Starting 'Edge' driver
+
+06-02-2025T11:24:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2025T11:24:49 - [MESSAGE][FAILED] - Unable to open browser with url: '' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738821228170.run(TempTestSuite1738821228170.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Unknown error 
+Host info: host: 'MOHAN', ip: '192.168.1.4'
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:100)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1738820473669.run(Script1738820473669.groovy:20)
+	... 18 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Unknown error
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	... 42 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U, next 12 characters to read: nknown error
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:166)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:167)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	... 44 more
+)]]></system-out>
+         <system-err><![CDATA[06-02-2025T11:24:39 - [TEST_CASE][FAILED] - Test Cases/TC_ProductNavigation: Test Cases/TC_ProductNavigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738821228170.run(TempTestSuite1738821228170.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Unknown error 
+Host info: host: 'MOHAN', ip: '192.168.1.4'
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:100)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1738820473669.run(Script1738820473669.groovy:20)
+	... 18 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Unknown error
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	... 42 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U, next 12 characters to read: nknown error
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:166)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:167)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	... 18 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2025T11:24:01 - [TEST_SUITE][FAILED] - TS_ProductNavigation: Test Cases/TC_ProductNavigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738821228170.run(TempTestSuite1738821228170.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Unknown error 
+Host info: host: 'MOHAN', ip: '192.168.1.4'
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:100)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1738820473669.run(Script1738820473669.groovy:20)
+	... 15 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Unknown error
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	... 39 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U, next 12 characters to read: nknown error
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:166)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:167)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	... 15 more]]></system-out>
+      <system-err><![CDATA[06-02-2025T11:24:01 - [TEST_SUITE][FAILED] - TS_ProductNavigation: Test Cases/TC_ProductNavigation FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: ''
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:160)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1738821228170.run(TempTestSuite1738821228170.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Unable to parse remote response: Unknown error 
+Host info: host: 'MOHAN', ip: '192.168.1.4'
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:100)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at Script1738820473669.run(Script1738820473669.groovy:20)
+	... 15 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to parse: Unknown error
+	at org.openqa.selenium.json.Json.toType(Json.java:169)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	... 39 more
+Caused by: org.openqa.selenium.json.JsonException: Unable to determine type from: U. Last 1 characters read: U, next 12 characters to read: nknown error
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: driver.version: CEdgeDriver
+	at org.openqa.selenium.json.JsonInput.peek(JsonInput.java:166)
+	at org.openqa.selenium.json.JsonTypeCoercer.lambda$buildCoercer$6(JsonTypeCoercer.java:167)
+	at org.openqa.selenium.json.JsonTypeCoercer.coerce(JsonTypeCoercer.java:146)
+	at org.openqa.selenium.json.Json.toType(Json.java:206)
+	at org.openqa.selenium.json.Json.toType(Json.java:167)
+	at org.openqa.selenium.json.Json.toType(Json.java:152)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
+	at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
+	at com.kms.katalon.selenium.driver.CEdgeDriver.<init>(CEdgeDriver.java:15)
+	at com.kms.katalon.core.webui.driver.edge.EdgeDriverBuilder.createDriver(EdgeDriverBuilder.java:33)
+	at com.kms.katalon.core.webui.driver.AbstractDriverBuilder.build(AbstractDriverBuilder.java:39)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:251)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:161)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:40)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:47)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:33)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:62)
+	at TC_ProductNavigation.run(TC_ProductNavigation:20)
+	... 15 more]]></system-err>
+   </testsuite>
+</testsuites>

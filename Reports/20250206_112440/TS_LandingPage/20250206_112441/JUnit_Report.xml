@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_LandingPage" time="16.263" tests="1" failures="0" errors="0">
+   <testsuite name="TS_LandingPage" tests="1" failures="0" errors="0" time="16.263" skipped="0" timestamp="06-02-2025T11:24:58" hostname="WINDOWS11 - Mohan" id="Test Suites/TS_LandingPage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\WINDOWS11\\git\\kataloncode\\Reports\\20250206_112440\\TS_LandingPage\\20250206_112441"/>
+         <property name="logFiles" value="C:\\Users\\WINDOWS11\\git\\kataloncode\\Reports\\20250206_112440\\TS_LandingPage\\20250206_112441\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="WINDOWS11 - Mohan"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 132.0.6834.160"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="924c6925f575bb8b17ef879f2d7e5aff"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/VerifyLandingPage" time="14.947" classname="Test Cases/VerifyLandingPage" status="PASSED">
+         <system-out><![CDATA[06-02-2025T11:25:00 - [TEST_CASE][PASSED] - Test Cases/VerifyLandingPage: Test Cases/VerifyLandingPage
+
+06-02-2025T11:25:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-02-2025T11:25:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-02-2025T11:25:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-02-2025T11:25:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-02-2025T11:25:09 - [TEST_STEP][PASSED] - navigateToUrl("https://petstore.octoperf.com/"): Navigate to 'https://petstore.octoperf.com/' successfully
+
+06-02-2025T11:25:10 - [MESSAGE][PASSED] - Navigate to 'https://petstore.octoperf.com/' successfully
+
+06-02-2025T11:25:10 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store"), 0): Object 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' is present
+
+06-02-2025T11:25:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+06-02-2025T11:25:11 - [MESSAGE][PASSED] - Object 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' is present
+
+06-02-2025T11:25:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store"), "Enter the Store"): Actual text and expected text of test object 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' are matched.
+
+06-02-2025T11:25:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' are matched.
+
+06-02-2025T11:25:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store")): Object: 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+06-02-2025T11:25:14 - [MESSAGE][PASSED] - Object: 'Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store' is clicked on
+
+06-02-2025T11:25:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-02-2025T11:25:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-02-2025T11:24:58 - [TEST_SUITE][PASSED] - TS_LandingPage: Test Cases/VerifyLandingPage]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

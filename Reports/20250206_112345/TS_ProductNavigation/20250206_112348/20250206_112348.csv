@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ProductNavigation,,,,06-02-2025 11:24:01,06-02-2025 11:24:49,47.663s,FAILED
+,,,,,,,
+Test Cases/TC_ProductNavigation,,,,06-02-2025 11:24:39,06-02-2025 11:24:49,10.406s,FAILED
+"openBrowser("""")",,,,06-02-2025 11:24:39,06-02-2025 11:24:49,10.370s,FAILED

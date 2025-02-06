@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LandingPage,Chrome 132.0.6834.160,,,06-02-2025 11:29:29,06-02-2025 11:29:48,18.280s,PASSED
+,,,,,,,
+Test Cases/VerifyLandingPage,Chrome 132.0.6834.160,,,06-02-2025 11:29:30,06-02-2025 11:29:48,17.253s,PASSED
+"openBrowser("""")",Chrome 132.0.6834.160,,,06-02-2025 11:29:32,06-02-2025 11:29:41,9.459s,PASSED
+"navigateToUrl(""https://petstore.octoperf.com/"")",Chrome 132.0.6834.160,,,06-02-2025 11:29:41,06-02-2025 11:29:42,1.018s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store""), 0)",Chrome 132.0.6834.160,,,06-02-2025 11:29:42,06-02-2025 11:29:43,1.122s,PASSED
+"verifyElementText(findTestObject(""Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store""), ""Enter the Store"")",Chrome 132.0.6834.160,,,06-02-2025 11:29:43,06-02-2025 11:29:44,0.526s,PASSED
+"click(findTestObject(""Object Repository/LandingPage/Page_JPetStore Demo/a_Enter the Store""))",Chrome 132.0.6834.160,,,06-02-2025 11:29:44,06-02-2025 11:29:46,1.525s,PASSED
+closeBrowser(),Chrome 132.0.6834.160,,,06-02-2025 11:29:46,06-02-2025 11:29:48,2.178s,PASSED
